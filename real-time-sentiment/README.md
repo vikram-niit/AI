@@ -210,12 +210,12 @@ docker-compose restart spark-streaming
 
 | Step | Status |
 |------|--------|
-| SCP project to EC2 ✅ |
-| Run `docker-compose up -d --build` ✅ |
-| Verify services ✅ |
-| Confirm data in Elasticsearch ✅ |
-| Create Kibana dashboard ✅ |
-| Access Streamlit ✅ |
+| SCP project to EC2| ✅ |
+| Run `docker-compose up -d --build`| ✅ |
+| Verify services| ✅ |
+| Confirm data in Elasticsearch| ✅ |
+| Create Kibana dashboard| ✅ |
+| Access Streamlit| ✅ |
 
 ---
 
@@ -227,3 +227,4 @@ You can extend this with:
 - Managed Kafka (MSK)
 - HuggingFace sentiment model
 - Alerts & dashboards
+
