@@ -37,22 +37,20 @@ Projects include predictive models, neural networks, NLP, computer vision, and r
 ## ⚙️ Getting Started
 
 1. Clone the repo:
-   ```bash
+```bash
    git clone https://github.com/yourusername/ai-projects.git
   ```
-
 2. Navigate to a project folder:
-   ```
+ ```
     cd ai-projects/image-classification/
   ```
 
 3. Install dependencies:
-  ```
+ ```
    pip install -r requirements.txt
   ```
-
 4. Run the project:
-  ```
+ ```
     python main.py
   ```
 
