@@ -40,6 +40,7 @@ Projects include predictive models, neural networks, NLP, computer vision, and r
    ```bash
    git clone https://github.com/yourusername/ai-projects.git
   ```
+
 2. Navigate to a project folder:
    ```
     cd ai-projects/image-classification/
@@ -47,7 +48,7 @@ Projects include predictive models, neural networks, NLP, computer vision, and r
 
 3. Install dependencies:
   ```
-  pip install -r requirements.txt
+   pip install -r requirements.txt
   ```
 
 4. Run the project:
