@@ -51,11 +51,11 @@ To get the true δ (gradient w.r.t z₁), we multiply by the activation slope:
 /*
 δ_h1 = (δ_o1*w11 + δ_o2*w12) * σ′(z_h1)
 δ_h2 = (δ_o1*w21 + δ_o2*w22) * σ′(z_h2)
+*/
 
 That gives:
 
 δ₁ = (δ₂ W₂ᵀ) ⊙ σ′(z₁)
-*/
 
 🎨 Visual summary
 
