@@ -77,3 +77,40 @@ That gives:
 
 ✅ After this step, δ₁ is the correct hidden layer error — ready to update W₁ (the previous layer’s weights).
 */
+
+/* 
+Consider a single weight wᵢⱼ
+
+wᵢⱼ connects neuron i in the previous layer to neuron j in the current layer.
+
+For the output layer, this is:
+
+zⱼ = ∑ᵢ aᵢ wᵢⱼ + bⱼ
+
+Where:
+aᵢ = activation of previous neuron (hidden layer neuron i)
+zⱼ = input to current neuron j
+
+2️⃣ Gradient of loss w.r.t wᵢⱼ
+
+From calculus:
+
+∂L/∂wᵢⱼ = aᵢ ⋅ δⱼ
+
+Where:
+aᵢ = activation of neuron i (from previous layer)
+δⱼ = ∂L/∂zⱼ = error at neuron j
+
+✅ Intuition:
+The weight’s responsibility = “how active was neuron i × how wrong was neuron j?”
+
+3️⃣ Weight update rule
+
+Using gradient descent:
+
+wᵢⱼ := wᵢⱼ − η ⋅ ∂L/∂wᵢⱼ
+
+η = learning rate
+
+Or, if your cod
+
