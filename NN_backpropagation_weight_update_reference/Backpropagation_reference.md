@@ -1,6 +1,6 @@
-🧩 The setup
+## 🧩 The setup
 
-Imagine a small network:
+### Imagine a small network:
 
 Hidden layer:  h1, h2
 Output layer:  o1, o2
@@ -14,7 +14,7 @@ W₂ = [
 ]
 */
 
-🧮 Step 1️⃣: Error flows backward (δ₂ W₂ᵀ)
+### 🧮 Step 1️⃣: Error flows backward (δ₂ W₂ᵀ)
 
 Output errors:
 
@@ -43,7 +43,7 @@ That gives the weighted sum of output errors:
 But these are errors with respect to the hidden layer outputs a₁,
 not their pre-activation inputs z₁.
 
-Step 2️⃣: Apply the activation derivative (⊙ σ′(z₁))
+### Step 2️⃣: Apply the activation derivative (⊙ σ′(z₁))
 
 Each hidden neuron transforms its input z₁ using an activation (like sigmoid).
 To get the true δ (gradient w.r.t z₁), we multiply by the activation slope:
