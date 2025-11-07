@@ -17,20 +17,23 @@ It propagates the error backward from the output layer to the input layer and up
    - Compute the output of each neuron layer by layer.
    - Store activations and weighted sums for later use.
    - Example:
-   - $$
+   -
+     $$
      \[
      z^{[l]} = W^{[l]} a^{[l-1]} + b^{[l]}
      \]
      \[
      a^{[l]} = f(z^{[l]})
      \]
-   $$
+      $$
 
 2. **Compute Loss**
    - Example (Mean Squared Error):
+     $$
      \[
      L = \frac{1}{2m} \sum_i (y_i - \hat{y}_i)^2
      \]
+      $$
 
 3. **Backward Pass (Error Propagation)**
    - Compute gradients layer-by-layer from the output backward:
@@ -126,4 +129,5 @@ for epoch in range(epochs):
     for l in layers:
         W[l] -= lr * gradients['dW'][l]
         b[l] -= lr * gradients['db'][l]
+
 
