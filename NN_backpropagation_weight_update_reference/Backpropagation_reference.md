@@ -112,5 +112,9 @@ wᵢⱼ := wᵢⱼ − η ⋅ ∂L/∂wᵢⱼ
 
 η = learning rate
 
-Or, if your cod
+Or, if your code defines error differently (e.g., error = y - a2), you may see:
 
+wᵢⱼ := wᵢⱼ + η ⋅ aᵢ ⋅ δⱼ
+
+Same idea, just the sign of δⱼ adjusts for your error definition.
+*/
