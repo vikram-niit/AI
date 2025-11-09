@@ -26,3 +26,9 @@ model.fit(x_train, y_train, epochs=5, batch_size=32, validation_split=0.1)
 # Evaluate on test data
 test_loss, test_acc = model.evaluate(x_test, y_test)
 print(f"Test accuracy: {test_acc:.4f}")
+
+# Save model
+os.makedirs('models', exist_ok=True)
+model.save('models/mnist_model.h5')
+print("✅ Model saved successfully at models/mnist_model.h5")
+
