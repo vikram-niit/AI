@@ -15,11 +15,13 @@ Built with **TensorFlow/Keras**, this project demonstrates how to train, evaluat
 ---
 
 ## 🧩 Project Structure
+```text
 mnist_image_classifier/
 ├── models/ # Saved model files (.h5)
 ├── mnist_classifier.py # Main training script
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
+```
 
 ---
 
@@ -85,12 +87,13 @@ print("Predicted digit:", np.argmax(pred))
 ```
 
 ## 🖼️ Model Architecture
-## Layer	Type	Output Shape	Activation
----
-Input	Flatten	(784,)	—
-Dense	Fully Connected	(128,)	ReLU
-Dense	Fully Connected	(64,)	ReLU
-Output	Fully Connected	(10,)	Softmax
+| Layer  | Type            | Output Shape | Activation |
+|--------|----------------|-------------|------------|
+| Input  | Flatten         | (784,)      | —          |
+| Dense  | Fully Connected | (128,)      | ReLU       |
+| Dense  | Fully Connected | (64,)       | ReLU       |
+| Output | Fully Connected | (10,)       | Softmax    |
+
 
 ## 📊 Example Results
 ```yaml
