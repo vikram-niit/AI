@@ -11,12 +11,13 @@ It allows users to input flower measurements and instantly get a predicted Iris 
 -Includes a separate script to train and evaluate the model
 
 ## 📁 Project Structure
+```bash
 project/
 ├── app.py            # Streamlit application for classification
 ├── iris_model.py     # Script to train/test the classifier
 ├── requirements.txt  # Python dependencies
 └── README.md         # Project documentation
-
+```
 
 ## 🧠 Model Information
 
@@ -89,5 +90,6 @@ The Iris dataset is a famous machine learning dataset containing 150 samples of 
 - Iris-virginica
 
 Each sample includes four measurements used for classification.
+
 
 
